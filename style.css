@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* الشريط العلوي */
+.navbar {
+    background-color: #007BFF; /* أزرق */
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* أزرار الشريط */
+.navbar button {
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navbar button:hover {
+    background-color: #e6e6e6;
+}
+
+/* محتوى الصفحة */
+.content {
+    padding: 50px;
+    text-align: center;
+}
+/* صورة المستخدم */
+.profile-pic {
+    position: absolute;
+    top: 3px;
+    right: 25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
